@@ -21,6 +21,7 @@ include "inc/head.php"
             <li><a href="cat5" class="linkCat5">Five</a></li>
         </ul>
     </nav>
+    
 
     <div class="colOne">
 
@@ -35,8 +36,6 @@ include "inc/head.php"
                ?>
 
         </ul>
-
-
 
     </div><!-- .colOne -->
 
@@ -57,8 +56,7 @@ include "inc/head.php"
 
 
 
-  <div class="infoBox group">
-  </div>
+    <div class="infoBox group"></div>
 
 
 

@@ -1,0 +1,309 @@
+.colTwo {
+	display:none;
+}
+
+
+
+.colOne {
+	width:100%;
+
+	ul {
+		width:90%;
+		max-width:400px;
+		margin:0 auto;
+		li {
+			width:100%;
+			margin:0 0 20px 0;
+			position:relative;
+			list-style:none;
+			display:none;
+			&.cat1 {
+				display:block;
+			}
+
+		}
+	}
+}
+
+
+
+
+.itemWrap {
+	position:relative;
+	width:100%;
+	max-width: 320px;
+
+	.itemInfo {
+		position:absolute;
+		padding:0;
+		margin:0;
+		top:0;
+		left:0;
+		width:100%;
+		padding:5%;
+		color:#FFF;
+		background-color:#333;
+		opacity: 0.9;
+		text-align:left;
+		display:none;
+		&.true {
+			display:block;
+		}
+		.metaInfo {
+			div {
+				padding-top:1em;
+			}
+		}
+	}
+}
+
+
+
+
+
+a.detailsLink {
+	display:block;
+	width:30%;
+	margin:10px auto;
+	padding:1em;
+	border:1px solid #fafafa;
+	background-color: #ccc;
+	text-align:center;
+	text-transform:uppercase;
+	color:#FFF;
+	-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 8px;
+}
+
+.cat1 a.detailsLink {
+	background-color: $linkCat1;
+
+}
+.cat2 a.detailsLink {
+	background-color: $linkCat2;
+	
+}
+.cat3 a.detailsLink {
+	background-color: $linkCat3;
+	
+}
+.cat4 a.detailsLink {
+	background-color: $linkCat4;
+	
+}
+.cat5 a.detailsLink {
+	background-color: $linkCat5;
+	
+}
+
+
+
+
+
+
+
+
+/* ===================	Desktop 	======================= */
+
+@media only screen and (min-width : 800px)  {
+
+
+.infoBox {
+	position:absolute;
+	bottom:70px;
+	left:0;
+	max-width: 400px;
+
+	.itemTitle {
+		font-family:$titleFont;
+		text-transform:uppercase;
+		font-size:1.2em;
+		&.catOne {color:$linkCat1;}
+		&.catTwo {color:$linkCat2;}
+		&.catThree {color:$linkCat3}
+		&.catFour {color:$linkCat4;}
+		&.catFive {color:$linkCat5;}
+	}
+
+	.metaInfo {
+			div {
+			padding-top:1em;
+			
+			&.metaDetails {
+				font-size:.9em;
+				line-height:1.4em;
+			}
+			}
+	}
+
+}	
+
+
+
+.colOne {
+	// width:41%;
+	width:400px;
+	float:left;
+
+	ul.galleryList {
+		width:100%;
+		max-width:100%;
+		margin-left: 0;
+		padding-left: 0;
+		list-style: none;
+
+		li {
+			width:115px;
+			margin:0 15px 15px 0;
+			float: left;
+			position:relative;
+			display:none;
+
+			&.cat1 {
+				display:block;
+			}
+
+			.pics {
+				border:2px solid #fff;
+				z-index:1;
+
+				&:hover {
+					cursor: pointer;
+					opacity: 0.5;
+					
+				}
+				&.active {
+					opacity: 0.5;
+					
+				}
+			}
+
+
+			.pics.cat1 {
+				border: 2px solid $linkCat1;
+			}
+			.pics.cat2 {
+				border: 2px solid $linkCat2;
+			}
+			.pics.cat3 {
+				border: 2px solid $linkCat3;
+			}
+			.pics.cat4 {
+				border: 2px solid $linkCat4;
+			}
+			.pics.cat5 {
+				border: 2px solid $linkCat5;
+			}			
+																		
+
+			a.detailsLink {
+				display:none;
+			}
+
+			.itemInfo {
+				display:none;
+			}
+
+
+		}
+	}
+
+
+}	
+
+.ghost {
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background: url(../../images/THUMBS-Ghost.png) top left no-repeat transparent;
+	z-index:99;
+	display:none;
+	&.true {
+		display:block;
+	}
+}
+
+
+.colTwo {
+	display:block;
+	// width:59%;
+	// max-width:620px;
+	width:624px;
+	min-height:624px;
+	float:right;
+
+	.wrap {
+		width:624px;
+		height:624px;
+		position:relative;
+
+		.imgWrap {
+
+			.frame {
+				border:2px solid #fff;
+			}
+
+			// .frame.cat1 {
+			// 	border: 2px solid $linkCat1;
+			// }
+			// .frame.cat2 {
+			// 	border: 2px solid $linkCat2;
+			// }
+			// .frame.cat3 {
+			// 	border: 2px solid $linkCat3;
+			// }
+			// .frame.cat4 {
+			// 	border: 2px solid $linkCat4;
+			// }
+			// .frame.cat5 {
+			// 	border: 2px solid $linkCat5;
+			// }			
+
+
+
+
+		}
+
+		.loading {
+			position:absolute;
+			top:0;
+			left:0;
+			width:100%;
+			height:300px;
+			background: url(../../images/ajax-loader.gif) 50% 50% no-repeat transparent;
+			z-index:9;
+		}
+
+		.itemWrap {
+			z-index:1;
+		}
+	}
+}
+
+
+}
+
+
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : landscape) {
+
+.colOne {
+	width:50%;
+}
+.colTwo {
+	width:50%;
+
+	.wrap {
+		width:100%;
+		height:100%;
+	}
+}
+
+
+
+
+}

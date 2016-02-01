@@ -3,9 +3,6 @@
     <div class="itemWrap">
 
 
-        
-    
-
          <img src="images/dot.gif" class="pics lazy cat1 active" data-thumb="images/gallery/cat1/TB101thumb.jpg" data-original="images/gallery/mobile/TB101.jpg" data-lg="images/gallery/cat1/TB101.jpg"  />
 
          
