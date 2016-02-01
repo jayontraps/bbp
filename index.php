@@ -31,7 +31,7 @@ include "inc/head.php"
 	  <p>Bespoke language translations are a keen possibility, but to contractual agreement with the artist. International Shipping Available</p>
 	  <p>Do feel free to call or email any enquiries</p>
 	  <p>07754 976486</p>
-	  <p><a href="bbp_orderform.PDF" target="_blank">DOWNLOAD</a>  Order Forms / Terms </p>
+	  <p><a href="orderform.pdf" target="_blank">DOWNLOAD</a>  Order Forms / Terms </p>
 	  <p>Copyright 2016 Biff Bang &amp; Pow TM - All Rights Reserved</p>
 
 	</div><!-- .intro -->
