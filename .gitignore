@@ -1,3 +1,5 @@
+.DS_Store
+.sass-cache
 images
 node_modules
 test-lazy
