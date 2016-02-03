@@ -1,0 +1,23 @@
+
+footer {
+	@extend .group;
+	clear: both;
+	border-top:1px solid #999;
+	padding:20px 0;
+	margin: 20px 0;
+
+	@include breakpoint($tablet_portrait) {
+		width:100%;
+		margin:0;
+		padding: 20px 0;
+	}
+}
+
+
+
+ul.footerNav {
+	li {
+		margin-bottom:20px;
+	}
+}
+

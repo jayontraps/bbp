@@ -1,0 +1,69 @@
+// Sass mixins
+@mixin reset {
+  padding: 0;
+  margin: 0;
+}
+
+@mixin reset-list {
+  list-style-type: none;
+  @include reset;
+}
+
+@mixin drop-shadow($size: 2px, $color: rgba(0,0,0,0.5)) {
+  text-shadow: $size $size $size $color, $size (-$size) $size $color, (-$size) $size $size $color, (-$size) (-$size) $size $color;
+}
+
+
+
+
+//http://css-tricks.com/video-screencasts/132-quick-useful-case-sass-math-mixins/
+
+@mixin defineCols($numPerRow, $margin) {
+  width: ((100% - (($numPerRow - 1) * $margin)) / $numPerRow);
+  &:nth-child(n) {
+    margin-bottom: $margin;
+    margin-right: $margin;
+  }
+  &:nth-child(#{$numPerRow}n) {
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+}
+
+
+
+
+
+
+@mixin breakpoint($point) {
+
+  @if $point == mobile {
+    @media (min-width: $mobile)  { @content; }
+  }
+
+  @else if $point == tablet_portrait {
+    @media (min-width: $tablet_portrait)  { @content; }
+  }
+
+
+  @else if $point == tablet_landscape {
+    @media (min-width: $tablet_landscape)  { @content; }
+  }  
+
+ @else if $point == js_breakpoint {
+    @media (min-width: $js_breakpoint)  { @content; }
+  } 
+
+
+  @else if $point == max_width {
+    @media (min-width: $max_width)  { @content; }
+  }  
+
+}
+
+
+
+
+
+
+

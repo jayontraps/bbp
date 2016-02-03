@@ -1,346 +1,309 @@
-            <li class="cat5">
-                <div class="itemWrap">
+<li class="gallery-item cat5">
+    <div class="gallery-item-wrapper">
 
-                    <img src="images/dot.gif" class="pics lazy" data-thumb="images/gallery/cat5/TB501thumb.jpg" data-original="images/gallery/mobile/TB501.jpg" data-lg="images/gallery/cat5/TB501.jpg"  />
+        <img src="images/dot.gif" class="gallery-thumbnail lazy" data-thumb="images/gallery/cat5/TB501thumb.jpg" data-original="images/gallery/mobile/TB501.jpg" data-lg="images/gallery/cat5/TB501.jpg"  />
 
-                    
+        
 
-                    <div class="itemInfo"> 
+        <div class="gallery-item-info"> 
 
-                        <div class="itemTitle catFive">'Loco Lime'  RANGE</div>
+            <div class="gallery-item-title catFive">'Loco Lime'  RANGE</div>
 
-                        <div class="metaInfo">
+            <div class="gallery-item-metainfo">
 
-                            <div>TB501  'Boogie'</div>
-                            
-                            <div class="metaDetails">
-                            
-                                    Printed on 280gsm FSC approved paper stock<br>
-                                    150 x 150 mm ( Folded Size )<br>
-                                    Printed by local UK Eco - friendly Printers<br>
-                                    Delivered Cello wrapped with recycled 'parcel brown' Envelopes<br>
-                                    90 Pence a Card ( Unit of 6 per Title )<br>                        
-                             
-                            </div>
-                        
-                            
-           
-                        </div>
+                <div>TB501  'Boogie'</div>
+                
+                <div class="gallery-item-meta-details">
+                
+                        Printed on 280gsm FSC approved paper stock<br>
+                        150 x 150 mm ( Folded Size )<br>
+                        Printed by local UK Eco - friendly Printers<br>
+                        Delivered Cello wrapped with recycled 'parcel brown' Envelopes<br>
+                        90 Pence a Card ( Unit of 6 per Title )<br>                        
+                 
+                </div>
+            
+                
 
-                    </div><!-- .itemInfo -->
+            </div>
 
-                    <a href="#" class="detailsLink">info</a>
+        </div><!-- .gallery-item-info -->
 
+        <a href="#" class="details-btn">info</a>
 
-                </div><!-- .itemWrap -->
-            </li>
 
+    </div><!-- .gallery-item-wrapper -->
+</li>
 
 
 
-            <li class="cat5">
-                <div class="itemWrap">
 
-                    <img src="images/dot.gif" class="pics lazy" data-thumb="images/gallery/cat5/TB502thumb.jpg" data-original="images/gallery/mobile/TB502.jpg" data-lg="images/gallery/cat5/TB502.jpg"  />
+<li class="gallery-item cat5">
+    <div class="gallery-item-wrapper">
 
-                    
+        <img src="images/dot.gif" class="gallery-thumbnail lazy" data-thumb="images/gallery/cat5/TB502thumb.jpg" data-original="images/gallery/mobile/TB502.jpg" data-lg="images/gallery/cat5/TB502.jpg"  />
 
-                    <div class="itemInfo"> 
+        
 
-                        <div class="itemTitle catFive">'Loco Lime'  RANGE</div>
+        <div class="gallery-item-info"> 
 
-                        <div class="metaInfo">
+            <div class="gallery-item-title catFive">'Loco Lime'  RANGE</div>
 
-                            <div>TB502  'Wide Awake'</div>
-                            <div class="metaDetails">
-                            
-                                    Printed on 280gsm FSC approved paper stock<br>
-                                    150 x 150 mm ( Folded Size )<br>
-                                    Printed by local UK Eco - friendly Printers<br>
-                                    Delivered Cello wrapped with recycled 'parcel brown' Envelopes<br>
-                                    90 Pence a Card ( Unit of 6 per Title )<br>                        
-                             
-                            </div>
-                            
-                            
-           
-                        </div>
+            <div class="gallery-item-metainfo">
 
-                    </div><!-- .itemInfo -->
+                <div>TB502  'Wide Awake'</div>
+                <div class="gallery-item-meta-details">
+                
+                        Printed on 280gsm FSC approved paper stock<br>
+                        150 x 150 mm ( Folded Size )<br>
+                        Printed by local UK Eco - friendly Printers<br>
+                        Delivered Cello wrapped with recycled 'parcel brown' Envelopes<br>
+                        90 Pence a Card ( Unit of 6 per Title )<br>                        
+                 
+                </div>
+                
+                
 
-                    <a href="#" class="detailsLink">info</a>
+            </div>
 
+        </div><!-- .gallery-item-info -->
 
-                </div><!-- .itemWrap -->
-            </li>
+        <a href="#" class="details-btn">info</a>
 
 
+    </div><!-- .gallery-item-wrapper -->
+</li>
 
 
 
-            <li class="cat5">
-                <div class="itemWrap">
 
-                    <img src="images/dot.gif" class="pics lazy" data-thumb="images/gallery/cat5/TB503thumb.jpg" data-original="images/gallery/mobile/TB503.jpg" data-lg="images/gallery/cat5/TB503.jpg"  />
 
-                    
+<li class="gallery-item cat5">
+    <div class="gallery-item-wrapper">
 
-                    <div class="itemInfo"> 
+        <img src="images/dot.gif" class="gallery-thumbnail lazy" data-thumb="images/gallery/cat5/TB503thumb.jpg" data-original="images/gallery/mobile/TB503.jpg" data-lg="images/gallery/cat5/TB503.jpg"  />
 
-                        <div class="itemTitle catFive">'Loco Lime'  RANGE</div>
+        
 
-                        <div class="metaInfo">
+        <div class="gallery-item-info"> 
 
-                            <div>TB503  'Bunga Bunga'</div>
-                            <div class="metaDetails">
-                            
-                                    Printed on 280gsm FSC approved paper stock<br>
-                                    150 x 150 mm ( Folded Size )<br>
-                                    Printed by local UK Eco - friendly Printers<br>
-                                    Delivered Cello wrapped with recycled 'parcel brown' Envelopes<br>
-                                    90 Pence a Card ( Unit of 6 per Title )<br>                        
-                             
-                            </div>
-                            
-                            
-           
-                        </div>
+            <div class="gallery-item-title catFive">'Loco Lime'  RANGE</div>
 
-                    </div><!-- .itemInfo -->
+            <div class="gallery-item-metainfo">
 
-                    <a href="#" class="detailsLink">info</a>
+                <div>TB503  'Bunga Bunga'</div>
+                <div class="gallery-item-meta-details">
+                
+                        Printed on 280gsm FSC approved paper stock<br>
+                        150 x 150 mm ( Folded Size )<br>
+                        Printed by local UK Eco - friendly Printers<br>
+                        Delivered Cello wrapped with recycled 'parcel brown' Envelopes<br>
+                        90 Pence a Card ( Unit of 6 per Title )<br>                        
+                 
+                </div>
+                
+                
 
+            </div>
 
-                </div><!-- .itemWrap -->
-            </li>
+        </div><!-- .gallery-item-info -->
 
+        <a href="#" class="details-btn">info</a>
 
 
+    </div><!-- .gallery-item-wrapper -->
+</li>
 
-            <li class="cat5">
-                <div class="itemWrap">
 
-                    <img src="images/dot.gif" class="pics lazy" data-thumb="images/gallery/cat5/TB504thumb.jpg" data-original="images/gallery/mobile/TB504.jpg" data-lg="images/gallery/cat5/TB504.jpg"  />
 
-                    
 
-                    <div class="itemInfo"> 
+<li class="gallery-item cat5">
+    <div class="gallery-item-wrapper">
 
-                        <div class="itemTitle catFive">'Loco Lime'  RANGE</div>
+        <img src="images/dot.gif" class="gallery-thumbnail lazy" data-thumb="images/gallery/cat5/TB504thumb.jpg" data-original="images/gallery/mobile/TB504.jpg" data-lg="images/gallery/cat5/TB504.jpg"  />
 
-                        <div class="metaInfo">
+        
 
-                            <div>TB504  'Buttons'</div>
-                            <div class="metaDetails">
-                            
-                                    Printed on 280gsm FSC approved paper stock<br>
-                                    150 x 150 mm ( Folded Size )<br>
-                                    Printed by local UK Eco - friendly Printers<br>
-                                    Delivered Cello wrapped with recycled 'parcel brown' Envelopes<br>
-                                    90 Pence a Card ( Unit of 6 per Title )<br>                        
-                             
-                            </div>
-                            
-                            
-           
-                        </div>
+        <div class="gallery-item-info"> 
 
-                    </div><!-- .itemInfo -->
+            <div class="gallery-item-title catFive">'Loco Lime'  RANGE</div>
 
-                    <a href="#" class="detailsLink">info</a>
+            <div class="gallery-item-metainfo">
 
+                <div>TB504  'Buttons'</div>
+                <div class="gallery-item-meta-details">
+                
+                        Printed on 280gsm FSC approved paper stock<br>
+                        150 x 150 mm ( Folded Size )<br>
+                        Printed by local UK Eco - friendly Printers<br>
+                        Delivered Cello wrapped with recycled 'parcel brown' Envelopes<br>
+                        90 Pence a Card ( Unit of 6 per Title )<br>                        
+                 
+                </div>
+                
+                
 
-                </div><!-- .itemWrap -->
-            </li>
+            </div>
 
+        </div><!-- .gallery-item-info -->
 
+        <a href="#" class="details-btn">info</a>
 
 
-            <li class="cat5">
-                <div class="itemWrap">
+    </div><!-- .gallery-item-wrapper -->
+</li>
 
-                    <img src="images/dot.gif" class="pics lazy" data-thumb="images/gallery/cat5/TB505thumb.jpg" data-original="images/gallery/mobile/TB505.jpg" data-lg="images/gallery/cat5/TB505.jpg"  />
 
-                    
 
-                    <div class="itemInfo"> 
 
-                        <div class="itemTitle catFive">'Loco Lime'  RANGE</div>
+<li class="gallery-item cat5">
+    <div class="gallery-item-wrapper">
 
-                        <div class="metaInfo">
+        <img src="images/dot.gif" class="gallery-thumbnail lazy" data-thumb="images/gallery/cat5/TB505thumb.jpg" data-original="images/gallery/mobile/TB505.jpg" data-lg="images/gallery/cat5/TB505.jpg"  />
 
-                            <div>TB505  'Eerie'</div>
-                            <div class="metaDetails">
-                            
-                                    Printed on 280gsm FSC approved paper stock<br>
-                                    150 x 150 mm ( Folded Size )<br>
-                                    Printed by local UK Eco - friendly Printers<br>
-                                    Delivered Cello wrapped with recycled 'parcel brown' Envelopes<br>
-                                    90 Pence a Card ( Unit of 6 per Title )<br>                        
-                             
-                            </div>
-                            
-                            
-           
-                        </div>
+        
 
-                    </div><!-- .itemInfo -->
+        <div class="gallery-item-info"> 
 
-                    <a href="#" class="detailsLink">info</a>
+            <div class="gallery-item-title catFive">'Loco Lime'  RANGE</div>
 
+            <div class="gallery-item-metainfo">
 
-                </div><!-- .itemWrap -->
-            </li>
+                <div>TB505  'Eerie'</div>
+                <div class="gallery-item-meta-details">
+                
+                        Printed on 280gsm FSC approved paper stock<br>
+                        150 x 150 mm ( Folded Size )<br>
+                        Printed by local UK Eco - friendly Printers<br>
+                        Delivered Cello wrapped with recycled 'parcel brown' Envelopes<br>
+                        90 Pence a Card ( Unit of 6 per Title )<br>                        
+                 
+                </div>
+                
+                
 
+            </div>
 
+        </div><!-- .gallery-item-info -->
 
+        <a href="#" class="details-btn">info</a>
 
-            <li class="cat5">
-                <div class="itemWrap">
 
-                    <img src="images/dot.gif" class="pics lazy" data-thumb="images/gallery/cat5/TB506thumb.jpg" data-original="images/gallery/mobile/TB506.jpg" data-lg="images/gallery/cat5/TB506.jpg"  />
+    </div><!-- .gallery-item-wrapper -->
+</li>
 
-                    
 
-                    <div class="itemInfo"> 
 
-                        <div class="itemTitle catFive">'Loco Lime'  RANGE</div>
 
-                        <div class="metaInfo">
+<li class="gallery-item cat5">
+    <div class="gallery-item-wrapper">
 
-                            <div>TB506  'Naughty'</div>
-                            <div class="metaDetails">
-                            
-                                    Printed on 280gsm FSC approved paper stock<br>
-                                    150 x 150 mm ( Folded Size )<br>
-                                    Printed by local UK Eco - friendly Printers<br>
-                                    Delivered Cello wrapped with recycled 'parcel brown' Envelopes<br>
-                                    90 Pence a Card ( Unit of 6 per Title )<br>                        
-                             
-                            </div>
-                            
-                            
-           
-                        </div>
+        <img src="images/dot.gif" class="gallery-thumbnail lazy" data-thumb="images/gallery/cat5/TB506thumb.jpg" data-original="images/gallery/mobile/TB506.jpg" data-lg="images/gallery/cat5/TB506.jpg"  />
 
-                    </div><!-- .itemInfo -->
+        
 
-                    <a href="#" class="detailsLink">info</a>
+        <div class="gallery-item-info"> 
 
+            <div class="gallery-item-title catFive">'Loco Lime'  RANGE</div>
 
-                </div><!-- .itemWrap -->
-            </li>
+            <div class="gallery-item-metainfo">
 
+                <div>TB506  'Naughty'</div>
+                <div class="gallery-item-meta-details">
+                
+                        Printed on 280gsm FSC approved paper stock<br>
+                        150 x 150 mm ( Folded Size )<br>
+                        Printed by local UK Eco - friendly Printers<br>
+                        Delivered Cello wrapped with recycled 'parcel brown' Envelopes<br>
+                        90 Pence a Card ( Unit of 6 per Title )<br>                        
+                 
+                </div>
+                
+                
 
+            </div>
 
+        </div><!-- .gallery-item-info -->
 
-            <li class="cat5">
-                <div class="itemWrap">
+        <a href="#" class="details-btn">info</a>
 
-                    <img src="images/dot.gif" class="pics lazy" data-thumb="images/gallery/cat5/TB507thumb.jpg" data-original="images/gallery/mobile/TB507.jpg" data-lg="images/gallery/cat5/TB507.jpg"  />
 
-                    
+    </div><!-- .gallery-item-wrapper -->
+</li>
 
-                    <div class="itemInfo"> 
 
-                        <div class="itemTitle catFive">'Loco Lime'  RANGE</div>
 
-                        <div class="metaInfo">
 
-                            <div>TB507  'Shutdown'</div>
-                            <div class="metaDetails">
-                            
-                                    Printed on 280gsm FSC approved paper stock<br>
-                                    150 x 150 mm ( Folded Size )<br>
-                                    Printed by local UK Eco - friendly Printers<br>
-                                    Delivered Cello wrapped with recycled 'parcel brown' Envelopes<br>
-                                    90 Pence a Card ( Unit of 6 per Title )<br>                        
-                             
-                            </div>
-                            
-                            
-           
-                        </div>
+<li class="gallery-item cat5">
+    <div class="gallery-item-wrapper">
 
-                    </div><!-- .itemInfo -->
+        <img src="images/dot.gif" class="gallery-thumbnail lazy" data-thumb="images/gallery/cat5/TB507thumb.jpg" data-original="images/gallery/mobile/TB507.jpg" data-lg="images/gallery/cat5/TB507.jpg"  />
 
-                    <a href="#" class="detailsLink">info</a>
+        
 
+        <div class="gallery-item-info"> 
 
-                </div><!-- .itemWrap -->
-            </li>
+            <div class="gallery-item-title catFive">'Loco Lime'  RANGE</div>
 
-            <!-- <li class="cat5">
-                <div class="itemWrap">
+            <div class="gallery-item-metainfo">
 
-                    <img src="images/dot.gif" class="pics lazy" data-thumb="images/gallery/cat5/TB508thumb.jpg" data-original="images/gallery/mobile/TB508.jpg" data-lg="images/gallery/cat5/TB508.jpg"  />
+                <div>TB507  'Shutdown'</div>
+                <div class="gallery-item-meta-details">
+                
+                        Printed on 280gsm FSC approved paper stock<br>
+                        150 x 150 mm ( Folded Size )<br>
+                        Printed by local UK Eco - friendly Printers<br>
+                        Delivered Cello wrapped with recycled 'parcel brown' Envelopes<br>
+                        90 Pence a Card ( Unit of 6 per Title )<br>                        
+                 
+                </div>
+                
+                
 
-                    
+            </div>
 
-                    <div class="itemInfo"> 
+        </div><!-- .gallery-item-info -->
 
-                        <div class="itemTitle catFive">'Loco Lime'  RANGE</div>
+        <a href="#" class="details-btn">info</a>
 
-                        <div class="metaInfo">
 
-                            <div>TB508  'Maggie'</div>
-                            <div class="metaDetails">
-                            
-                                    Printed on 280gsm FSC approved paper stock<br>
-                                    150 x 150 mm ( Folded Size )<br>
-                                    Printed by local UK Eco - friendly Printers<br>
-                                    Delivered Cello wrapped with recycled 'parcel brown' Envelopes<br>
-                                    90 Pence a Card ( Unit of 6 per Title )<br>                        
-                             
-                            </div>
-                            
-                            
-           
-                        </div>
+    </div><!-- .gallery-item-wrapper -->
+</li>
 
+
+
+
+
+
+<li class="gallery-item cat5">
+    <div class="gallery-item-wrapper">
+
+        <img src="images/dot.gif" class="gallery-thumbnail lazy" data-thumb="images/gallery/cat5/thumb5.jpg" data-original="images/gallery/mobile/range5.jpg" data-lg="images/gallery/cat5/range5.jpg"  />
+
+    
+            <div class="gallery-item-info"> 
+
+                <div class="gallery-item-title catTwo">&nbsp;</div>
+
+                <div class="gallery-item-metainfo">
+
+                    <div>&nbsp;</div>
+                    <div class="gallery-item-meta-details">
+                       &nbsp; 
+                           
                     </div>
 
-                    <a href="#" class="detailsLink">info</a>
-
-
                 </div>
-            </li>
- -->
+
+            </div><!-- .gallery-item-info -->
+
+
+
+    </div><!-- .gallery-item-wrapper -->
+</li>
 
 
 
 
-
-
-            <li class="cat5">
-                <div class="itemWrap">
-
-                    <img src="images/dot.gif" class="pics lazy" data-thumb="images/gallery/cat5/thumb5.jpg" data-original="images/gallery/mobile/range5.jpg" data-lg="images/gallery/cat5/range5.jpg"  />
-
-                
-                        <div class="itemInfo"> 
-
-                            <div class="itemTitle catTwo">&nbsp;</div>
-
-                            <div class="metaInfo">
-
-                                <div>&nbsp;</div>
-                                <div class="metaDetails">
-                                   &nbsp; 
-                                       
-                                </div>
-
-                            </div>
-
-                        </div><!-- .itemInfo -->
-
-
-
-                </div><!-- .itemWrap -->
-            </li>
-
-
-
-
-                                               
+                                   
 

@@ -1,16 +1,20 @@
 
-<footer>
+	<footer>
 
-<nav>
-	<ul class="nav group footerNav">
-		<li><a href="mailto:info@biffbandandpow.com">info@biffbandandpow.com</a></li>
-		<li>+447754 976486</li>
-	</ul>
-</nav>
+		<nav>
+			<ul class="nav group footerNav">
+				<li><a href="mailto:info@biffbandandpow.com">info@biffbandandpow.com</a></li>
+				<li>+447754 976486</li>
+			</ul>
+		</nav>
 
-</footer>
+	</footer>
 
 </div><!-- .wrapper -->
+
+
+
+
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/jquery-1.8.3.min.js"><\/script>')</script>

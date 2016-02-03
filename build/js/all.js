@@ -1,76 +1,58 @@
 
-$(".catList > li > a").on('click', function(e) {
+$(".category-nav > li > a").on('click', function(e) {
 
 	e.preventDefault();
 
-
-
 	var $this = $(this),
-		galleryList = $("ul.galleryList"),
+		galleryList = $("ul.gallery-list"),
 		catselected = $this.attr("href"),
-		imgs = galleryList.find("img.pics");
-		//frame = $("img.frame");
+		imgs = galleryList.find(".gallery-thumbnail");
 
 	if ($this.hasClass("on")) {return false;}
 
 
-	$(".catList > li > a").removeClass("on");
+	$(".category-nav > li > a").removeClass("on");
 	$this.addClass("on");
-
 
 
 	galleryList.find("li").hide();
 
 
-
-
 	// color borders
 	var removeBorder = function(){
-
-		imgs.removeClass("cat1 cat2 cat3 cat4 cat5");
-		//frame.removeClass("cat1 cat2 cat3 cat4 cat5");
-
+		imgs.removeClass("cat1 cat2 cat3 cat4 cat5");		
 	};
 
 	var addBorder = function() {
 
 		switch ( catselected ) {
 				
-
-
 			case "cat1":
 				removeBorder();
-				imgs.addClass(catselected);
-				//frame.addClass(catselected);
+				imgs.addClass(catselected);				
 				break;
 
 			case "cat2":
 				removeBorder();
-				imgs.addClass(catselected);
-				//frame.addClass(catselected);
+				imgs.addClass(catselected);				
 				break;
 
 			case "cat3":
 				removeBorder();
-				imgs.addClass(catselected);
-				//frame.addClass(catselected);
+				imgs.addClass(catselected);				
 				break;	
 
 
 			case "cat4":
 				removeBorder();
-				imgs.addClass(catselected);
-				//frame.addClass(catselected);
+				imgs.addClass(catselected);				
 				break;
 
 			case "cat5":
 				removeBorder();
-		     	imgs.addClass(catselected);
-		     	//frame.addClass(catselected);
+		     	imgs.addClass(catselected);		     	
 				break;				
 			}
-
-
 	};
 
 	addBorder();
@@ -89,10 +71,9 @@ $(".catList > li > a").on('click', function(e) {
 
 		firstImgAttr = firstImg.attr("data-lg"),
 	
-	 	wrap = $('div.wrap');
+	 	wrap = $('div.image-outer-wrap');
 
 
- 	// remove and add .active
  	upDatedList.find('img').removeClass('active');
  	firstImg.addClass('active');
 
@@ -119,45 +100,35 @@ $(".catList > li > a").on('click', function(e) {
 	// load new image into frame
 	$targetSrc = $(".frame");
 
+	var img = $targetSrc.attr('src', firstImgAttr ).load( function() {
 
-	var img = $targetSrc.attr('src', firstImgAttr )
-	.load(function() {
-
-	imgWrap.append(img).fadeIn("fast", function() {
-		$(loader).fadeOut("fast");
-	});
-
+		imgWrap.append(img).fadeIn("fast", function() {
+			$(loader).fadeOut("fast");
+		});
 		
-
 	});
 
 
 	if ($("body").hasClass("lg-screen")) {
-
 		//load infoBox
-		var metaData = firstImg.next(".itemInfo");
+		var metaData = firstImg.next(".gallery-item-info");
 		metaData = metaData.clone();
 		var destination = $(".infoBox");
 		destination.empty();
 		metaData.appendTo(destination);
-
 	}
-
-
-	// if ($("body").hasClass("sm-screen")) {
-
-	// 	imgs.lazyload({
-	// 		skip_invisible : false,
-	// 		threshold : 200 ,
-	// 		effect : "fadeIn"
-	// 	});	
-		
-	// };
-
-
 	
-
 });
+
+
+
+
+
+
+
+
+
+
 
 (function($) {
 	
@@ -213,19 +184,19 @@ $(document).ready(function() {
 		loader = $('<div class="loading"></div>');
 
 
-	$('.lg-screen img.pics').on('click', function() {
+	$('.lg-screen .gallery-thumbnail').on('click', function() {
 
 		var $this = $(this),
 		 	largeImgSrc = $this.attr('data-lg'),
 			imgWrap = wrap.find(".imgWrap");
 
-		if ($this.hasClass("active")) { return false;};			
+		if ($this.hasClass("active")) { return false; }	
 
 		imgWrap.hide();
 
 		$(loader).prependTo( wrap ).fadeIn("fast");			
 
-		$(".lg-screen img.pics").removeClass("active");
+		$(".lg-screen .gallery-thumbnail").removeClass("active");
 
 		$this.addClass("active");
 
@@ -242,7 +213,7 @@ $(document).ready(function() {
 
 
 		//load infoBox
-		var metaData = $this.next(".itemInfo");
+		var metaData = $this.next(".gallery-item-info");
 		metaData = metaData.clone();
 
 		var destination = $(".infoBox");
@@ -259,63 +230,72 @@ checkConditions.js
 thumbclick.js
 catclick.js
 */
+
 (function($) {		
 
 	$( document ).ready(function() {
 
 		var bodyTag = $("body"),
-			myImages = $("img.pics"),
-			homeImg = $("img.homeImg"),
-
-			respondImg = function () {
-
-				var properAttr;
-
-				if (bodyTag.hasClass("lg-screen")) {
-
-					properAttr = "data-thumb";
-
-				} else {
-					properAttr = "src";
-				}
-
-				//populate the src attribute with thumbs on desktop
-				var populateSrc = function(index) {
-					$(this).attr("src", $(this).attr(properAttr));
-				};
-
-				myImages.each(populateSrc);
-				homeImg.each(populateSrc);
-
-			}; 
-
-
-		respondImg();
-
-	 	$(window).on('resize', respondImg);
+			myImages = $(".gallery-thumbnail"),
+			homeImg = $("img.homeImg");
 
 
 
+	    var media_query = window.matchMedia("(min-width: 800px)");
+	    media_query.addListener(loadThumbSrc);
+	    loadThumbSrc(media_query);
+
+	    function loadThumbSrc(media_query) {
+
+			if (media_query.matches) {
+
+				$.each(myImages, function(argument) {
+					$(this).attr("src", $(this).data('thumb'));
+				});
+
+			} else {
+
+				$.each(myImages, function(argument) {
+					$(this).attr("src", $(this).data('original'));
+				});
+
+				// // Lazyload images
+				// myImages.lazyload({
+				// 	skip_invisible : false,
+				// 	threshold : 200 ,
+				// 	effect : "fadeIn"
+				// });	
+
+				// //  loading images below-the-fold after five seconds
+				// $(function() {          
+				//     $("img:below-the-fold").lazyload({
+				//         event : "sporty"
+				//     });
+				// });
+
+				// $(window).bind("load", function() { 
+				//     var timeout = setTimeout(function() {$("img.lazy").trigger("sporty");}, 5000);
+				// }); 
+			}
+		}    
 
 
 
 
 
 
-
-		// on gallery page load position first .itemInfo
 		if ( bodyTag.hasClass("lg-screen") ) {
 
-			var firstItemInfo = function() {
+			var firstgalleryitem = function() {
 
-			var metaData = $("div.itemInfo").first(),
+			var metaData = $("div.gallery-item-info").first(),
 				destination = $(".infoBox");
 				metaData = metaData.clone();		
 				destination.empty();
 				metaData.appendTo(destination);
 			};
 
-			$(window).on('load', firstItemInfo);
+			$(window).on('load', firstgalleryitem);
 
 		}
 
@@ -324,47 +304,18 @@ catclick.js
 
 
 
+	 	// toggle details on mobile
+		$(".details-btn").on('click', function(e) {
+			e.preventDefault();
+			$(this).prev().toggleClass("on");
+		});
 
 
 		
-		if (bodyTag.hasClass("sm-screen")) {
-
-			// Lazyload images
-			myImages.lazyload({
-				skip_invisible : false,
-				threshold : 200 ,
-				effect : "fadeIn"
-			});	
-
-			//  loading images below-the-fold after five seconds
-			$(function() {          
-			    $("img:below-the-fold").lazyload({
-			        event : "sporty"
-			    });
-			});
-
-			$(window).bind("load", function() { 
-			    var timeout = setTimeout(function() {$("img.lazy").trigger("sporty")}, 5000);
-			}); 
-
-		}
-
-
-
-
-
-
-
-	 	// toggle details on mobile
-		$(".sm-screen a.detailsLink").on('click', function(e) {
-			e.preventDefault();
-			var $this = $(this);
-			$this.prev().toggleClass("true");
-		});
 
 	
 
-	});/*=========== end $( document ).ready() ================ */
+	});
 
 })(jQuery);
 

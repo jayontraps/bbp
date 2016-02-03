@@ -5,19 +5,19 @@ $(document).ready(function() {
 		loader = $('<div class="loading"></div>');
 
 
-	$('.lg-screen img.pics').on('click', function() {
+	$('.lg-screen .gallery-thumbnail').on('click', function() {
 
 		var $this = $(this),
 		 	largeImgSrc = $this.attr('data-lg'),
 			imgWrap = wrap.find(".imgWrap");
 
-		if ($this.hasClass("active")) { return false;};			
+		if ($this.hasClass("active")) { return false; }	
 
 		imgWrap.hide();
 
 		$(loader).prependTo( wrap ).fadeIn("fast");			
 
-		$(".lg-screen img.pics").removeClass("active");
+		$(".lg-screen .gallery-thumbnail").removeClass("active");
 
 		$this.addClass("active");
 
@@ -34,7 +34,7 @@ $(document).ready(function() {
 
 
 		//load infoBox
-		var metaData = $this.next(".itemInfo");
+		var metaData = $this.next(".gallery-item-info");
 		metaData = metaData.clone();
 
 		var destination = $(".infoBox");

@@ -1,14 +1,16 @@
 @import "vars";
+@import "mixins";
 @import "vendor/normalize";
 @import "typography";
 @import "global";
-
+@import "layout";
 
 // // components
 // @import "components/button";
 // @import "components/media";
 
 @import "header";
+@import "footer";
 
 // navigation
 @import "navigation/main-nav";
@@ -16,7 +18,16 @@
 
 
 // gallery 
-@import "gallery/gallery";
+@import "gallery/category-nav";
+@import "gallery/gallery-layout";
+@import "gallery/gallery-list";
+@import "gallery/gallery-list-items";
+@import "gallery/main-image";
+@import "gallery/info-box";
+@import "gallery/details-btn";
+
+
+
 
 
 @import "helpers";

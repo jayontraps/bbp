@@ -1,76 +1,58 @@
 
-$(".catList > li > a").on('click', function(e) {
+$(".category-nav > li > a").on('click', function(e) {
 
 	e.preventDefault();
 
-
-
 	var $this = $(this),
-		galleryList = $("ul.galleryList"),
+		galleryList = $("ul.gallery-list"),
 		catselected = $this.attr("href"),
-		imgs = galleryList.find("img.pics");
-		//frame = $("img.frame");
+		imgs = galleryList.find(".gallery-thumbnail");
 
 	if ($this.hasClass("on")) {return false;}
 
 
-	$(".catList > li > a").removeClass("on");
+	$(".category-nav > li > a").removeClass("on");
 	$this.addClass("on");
-
 
 
 	galleryList.find("li").hide();
 
 
-
-
 	// color borders
 	var removeBorder = function(){
-
-		imgs.removeClass("cat1 cat2 cat3 cat4 cat5");
-		//frame.removeClass("cat1 cat2 cat3 cat4 cat5");
-
+		imgs.removeClass("cat1 cat2 cat3 cat4 cat5");		
 	};
 
 	var addBorder = function() {
 
 		switch ( catselected ) {
 				
-
-
 			case "cat1":
 				removeBorder();
-				imgs.addClass(catselected);
-				//frame.addClass(catselected);
+				imgs.addClass(catselected);				
 				break;
 
 			case "cat2":
 				removeBorder();
-				imgs.addClass(catselected);
-				//frame.addClass(catselected);
+				imgs.addClass(catselected);				
 				break;
 
 			case "cat3":
 				removeBorder();
-				imgs.addClass(catselected);
-				//frame.addClass(catselected);
+				imgs.addClass(catselected);				
 				break;	
 
 
 			case "cat4":
 				removeBorder();
-				imgs.addClass(catselected);
-				//frame.addClass(catselected);
+				imgs.addClass(catselected);				
 				break;
 
 			case "cat5":
 				removeBorder();
-		     	imgs.addClass(catselected);
-		     	//frame.addClass(catselected);
+		     	imgs.addClass(catselected);		     	
 				break;				
 			}
-
-
 	};
 
 	addBorder();
@@ -89,10 +71,9 @@ $(".catList > li > a").on('click', function(e) {
 
 		firstImgAttr = firstImg.attr("data-lg"),
 	
-	 	wrap = $('div.wrap');
+	 	wrap = $('div.image-outer-wrap');
 
 
- 	// remove and add .active
  	upDatedList.find('img').removeClass('active');
  	firstImg.addClass('active');
 
@@ -119,42 +100,31 @@ $(".catList > li > a").on('click', function(e) {
 	// load new image into frame
 	$targetSrc = $(".frame");
 
+	var img = $targetSrc.attr('src', firstImgAttr ).load( function() {
 
-	var img = $targetSrc.attr('src', firstImgAttr )
-	.load(function() {
-
-	imgWrap.append(img).fadeIn("fast", function() {
-		$(loader).fadeOut("fast");
-	});
-
+		imgWrap.append(img).fadeIn("fast", function() {
+			$(loader).fadeOut("fast");
+		});
 		
-
 	});
 
 
 	if ($("body").hasClass("lg-screen")) {
-
 		//load infoBox
-		var metaData = firstImg.next(".itemInfo");
+		var metaData = firstImg.next(".gallery-item-info");
 		metaData = metaData.clone();
 		var destination = $(".infoBox");
 		destination.empty();
 		metaData.appendTo(destination);
-
 	}
-
-
-	// if ($("body").hasClass("sm-screen")) {
-
-	// 	imgs.lazyload({
-	// 		skip_invisible : false,
-	// 		threshold : 200 ,
-	// 		effect : "fadeIn"
-	// 	});	
-		
-	// };
-
-
 	
-
 });
+
+
+
+
+
+
+
+
+

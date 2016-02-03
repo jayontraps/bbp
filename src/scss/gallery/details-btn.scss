@@ -1,0 +1,34 @@
+.details-btn {
+	display:block;
+	width:30%;
+	margin:10px auto;
+	padding:1em;
+	border:1px solid #fafafa;
+	background-color: #ccc;
+	text-align:center;
+	text-transform:uppercase;
+	color:#FFF;
+	border-radius: 8px;
+}
+
+.cat1 .details-btn {
+	background-color: $linkCat1;
+
+}
+.cat2 .details-btn {
+	background-color: $linkCat2;
+	
+}
+.cat3 .details-btn {
+	background-color: $linkCat3;
+	
+}
+.cat4 .details-btn {
+	background-color: $linkCat4;
+	
+}
+.cat5 .details-btn {
+	background-color: $linkCat5;	
+}
+
+

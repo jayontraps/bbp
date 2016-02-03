@@ -1,27 +1,34 @@
+// typography
 $bodyFont:	'Futura W01 Book', Verdana, "Verdana Ref", sans-serif;
-
 $titleFont:'Futura W01 Medium';
-
 $fontSize: 16px;
-
-$bodyColor: #5B5C5D;
-
-$logoColor: #372A76;
-
 $bodyLetterSpacing: 0.06em;
 
+// colors
+$bodyColor: #5B5C5D;
+$logoColor: #372A76;
 
 $linkCat1: #BC62C6;
-
-
 $linkCat2: #794D06;
-
-
 $linkCat3: #FBBD12;
-
-
 $linkCat4: #2F91F6;
-
-
 $linkCat5: #97CD2D;	
 	
+
+// layout
+$max_width : 1080px;
+$max_width_medium: 60rem; // 960px
+$max_width_small: 50rem; // 800px
+
+
+// spacing
+$default_spacing: 1.5rem;
+
+
+// breakpoints
+$mobile : 400px;
+$tablet_portrait : 768px;
+$js_breakpoint : 800px;
+$tablet_landscape : 1024px;
+
+

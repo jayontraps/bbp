@@ -1,0 +1,56 @@
+.wrapper {
+
+	width:90%;
+	margin:0 auto;
+
+	@include breakpoint(max_width) {	
+		width:100%;	
+		max-width: $max_width;
+	}
+}
+
+
+
+
+.main {
+	padding-bottom:60px;
+	position:relative;
+}
+
+
+
+
+
+.main-image {
+	display:block;
+	width:100%;
+	float: none;
+	margin:0 auto 30px auto;
+
+	@include breakpoint(tablet_portrait) {
+
+		width: 50%;
+		float: right;
+		margin: 0;
+	}
+}
+
+
+
+
+
+.intro {
+	width:100%;
+	margin:0 auto;
+	float: none;
+
+	@include breakpoint(tablet_portrait) {
+		width:40%;
+		float: left;
+	}
+}
+
+
+
+
+

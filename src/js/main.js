@@ -3,63 +3,72 @@ checkConditions.js
 thumbclick.js
 catclick.js
 */
+
 (function($) {		
 
 	$( document ).ready(function() {
 
 		var bodyTag = $("body"),
-			myImages = $("img.pics"),
-			homeImg = $("img.homeImg"),
-
-			respondImg = function () {
-
-				var properAttr;
-
-				if (bodyTag.hasClass("lg-screen")) {
-
-					properAttr = "data-thumb";
-
-				} else {
-					properAttr = "src";
-				}
-
-				//populate the src attribute with thumbs on desktop
-				var populateSrc = function(index) {
-					$(this).attr("src", $(this).attr(properAttr));
-				};
-
-				myImages.each(populateSrc);
-				homeImg.each(populateSrc);
-
-			}; 
-
-
-		respondImg();
-
-	 	$(window).on('resize', respondImg);
+			myImages = $(".gallery-thumbnail"),
+			homeImg = $("img.homeImg");
 
 
 
+	    var media_query = window.matchMedia("(min-width: 800px)");
+	    media_query.addListener(loadThumbSrc);
+	    loadThumbSrc(media_query);
+
+	    function loadThumbSrc(media_query) {
+
+			if (media_query.matches) {
+
+				$.each(myImages, function(argument) {
+					$(this).attr("src", $(this).data('thumb'));
+				});
+
+			} else {
+
+				$.each(myImages, function(argument) {
+					$(this).attr("src", $(this).data('original'));
+				});
+
+				// // Lazyload images
+				// myImages.lazyload({
+				// 	skip_invisible : false,
+				// 	threshold : 200 ,
+				// 	effect : "fadeIn"
+				// });	
+
+				// //  loading images below-the-fold after five seconds
+				// $(function() {          
+				//     $("img:below-the-fold").lazyload({
+				//         event : "sporty"
+				//     });
+				// });
+
+				// $(window).bind("load", function() { 
+				//     var timeout = setTimeout(function() {$("img.lazy").trigger("sporty");}, 5000);
+				// }); 
+			}
+		}    
 
 
 
 
 
 
-
-		// on gallery page load position first .itemInfo
 		if ( bodyTag.hasClass("lg-screen") ) {
 
-			var firstItemInfo = function() {
+			var firstgalleryitem = function() {
 
-			var metaData = $("div.itemInfo").first(),
+			var metaData = $("div.gallery-item-info").first(),
 				destination = $(".infoBox");
 				metaData = metaData.clone();		
 				destination.empty();
 				metaData.appendTo(destination);
 			};
 
-			$(window).on('load', firstItemInfo);
+			$(window).on('load', firstgalleryitem);
 
 		}
 
@@ -68,47 +77,18 @@ catclick.js
 
 
 
+	 	// toggle details on mobile
+		$(".details-btn").on('click', function(e) {
+			e.preventDefault();
+			$(this).prev().toggleClass("on");
+		});
 
 
 		
-		if (bodyTag.hasClass("sm-screen")) {
-
-			// Lazyload images
-			myImages.lazyload({
-				skip_invisible : false,
-				threshold : 200 ,
-				effect : "fadeIn"
-			});	
-
-			//  loading images below-the-fold after five seconds
-			$(function() {          
-			    $("img:below-the-fold").lazyload({
-			        event : "sporty"
-			    });
-			});
-
-			$(window).bind("load", function() { 
-			    var timeout = setTimeout(function() {$("img.lazy").trigger("sporty")}, 5000);
-			}); 
-
-		}
-
-
-
-
-
-
-
-	 	// toggle details on mobile
-		$(".sm-screen a.detailsLink").on('click', function(e) {
-			e.preventDefault();
-			var $this = $(this);
-			$this.prev().toggleClass("true");
-		});
 
 	
 
-	});/*=========== end $( document ).ready() ================ */
+	});
 
 })(jQuery);
 

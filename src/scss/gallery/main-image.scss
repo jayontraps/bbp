@@ -1,0 +1,24 @@
+.image-outer-wrap {			
+	position:relative;		
+}
+
+
+
+.imgWrap {		
+	.frame {
+		border:2px solid #fff;
+	}
+}
+
+
+
+
+.loading {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:300px;
+	background: url(../../images/ajax-loader.gif) 50% 50% no-repeat transparent;
+	z-index:9;
+}
