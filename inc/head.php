@@ -14,7 +14,7 @@
 
         <meta name="viewport" content="width=device-width, maximum-scale=1.0">
 
-        <link rel="stylesheet" href="build/css/main.css">
+        <link rel="stylesheet" href="build/css/main.css?ver=9999">
         <script type="text/javascript" src="build/js/modernizr.js"></script>
         <script type="text/javascript" src="http://fast.fonts.com/jsapi/fe96c2c8-b6ff-4798-a179-0ee5020b9c2f.js"></script>
         
