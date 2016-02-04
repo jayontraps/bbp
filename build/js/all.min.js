@@ -1,132 +1,483 @@
+var cards = [{
+	"title" : "",
+	"range" : "",
+	"thumbnail" : "",
+	"original" : "",
+	"large" : "",
+	"details" : ""
+},
+{
+	"title" : "",
+	"range" : "",
+	"thumbnail" : "",
+	"original" : "",
+	"large" : "",
+	"details" : ""
+},
+{
+	"title" : "",
+	"range" : "",
+	"thumbnail" : "",
+	"original" : "",
+	"large" : "",
+	"details" : ""
+},
+{
+	"title" : "",
+	"range" : "",
+	"thumbnail" : "",
+	"original" : "",
+	"large" : "",
+	"details" : ""
+},
+{
+	"title" : "",
+	"range" : "",
+	"thumbnail" : "",
+	"original" : "",
+	"large" : "",
+	"details" : ""
+},
+{
+	"title" : "",
+	"range" : "",
+	"thumbnail" : "",
+	"original" : "",
+	"large" : "",
+	"details" : ""
+},
+{
+	"title" : "",
+	"range" : "",
+	"thumbnail" : "",
+	"original" : "",
+	"large" : "",
+	"details" : ""
+},
+{
+	"title" : "",
+	"range" : "",
+	"thumbnail" : "",
+	"original" : "",
+	"large" : "",
+	"details" : ""
+},
+{
+	"title" : "",
+	"range" : "",
+	"thumbnail" : "",
+	"original" : "",
+	"large" : "",
+	"details" : ""
+},
+{
+	"title" : "",
+	"range" : "",
+	"thumbnail" : "",
+	"original" : "",
+	"large" : "",
+	"details" : ""
+},
+{
+	"title" : "",
+	"range" : "",
+	"thumbnail" : "",
+	"original" : "",
+	"large" : "",
+	"details" : ""
+},
+{
+	"title" : "",
+	"range" : "",
+	"thumbnail" : "",
+	"original" : "",
+	"large" : "",
+	"details" : ""
+},
+{
+	"title" : "",
+	"range" : "",
+	"thumbnail" : "",
+	"original" : "",
+	"large" : "",
+	"details" : ""
+},
+{
+	"title" : "",
+	"range" : "",
+	"thumbnail" : "",
+	"original" : "",
+	"large" : "",
+	"details" : ""
+},
+{
+	"title" : "",
+	"range" : "",
+	"thumbnail" : "",
+	"original" : "",
+	"large" : "",
+	"details" : ""
+},
+{
+	"title" : "",
+	"range" : "",
+	"thumbnail" : "",
+	"original" : "",
+	"large" : "",
+	"details" : ""
+},
+{
+	"title" : "",
+	"range" : "",
+	"thumbnail" : "",
+	"original" : "",
+	"large" : "",
+	"details" : ""
+},
+{
+	"title" : "",
+	"range" : "",
+	"thumbnail" : "",
+	"original" : "",
+	"large" : "",
+	"details" : ""
+},
+{
+	"title" : "",
+	"range" : "",
+	"thumbnail" : "",
+	"original" : "",
+	"large" : "",
+	"details" : ""
+},
+{
+	"title" : "",
+	"range" : "",
+	"thumbnail" : "",
+	"original" : "",
+	"large" : "",
+	"details" : ""
+},
+{
+	"title" : "",
+	"range" : "",
+	"thumbnail" : "",
+	"original" : "",
+	"large" : "",
+	"details" : ""
+},
+{
+	"title" : "",
+	"range" : "",
+	"thumbnail" : "",
+	"original" : "",
+	"large" : "",
+	"details" : ""
+},
+{
+	"title" : "",
+	"range" : "",
+	"thumbnail" : "",
+	"original" : "",
+	"large" : "",
+	"details" : ""
+},
+{
+	"title" : "",
+	"range" : "",
+	"thumbnail" : "",
+	"original" : "",
+	"large" : "",
+	"details" : ""
+},
+{
+	"title" : "",
+	"range" : "",
+	"thumbnail" : "",
+	"original" : "",
+	"large" : "",
+	"details" : ""
+},
+{
+	"title" : "",
+	"range" : "",
+	"thumbnail" : "",
+	"original" : "",
+	"large" : "",
+	"details" : ""
+},
+{
+	"title" : "",
+	"range" : "",
+	"thumbnail" : "",
+	"original" : "",
+	"large" : "",
+	"details" : ""
+},
+{
+	"title" : "",
+	"range" : "",
+	"thumbnail" : "",
+	"original" : "",
+	"large" : "",
+	"details" : ""
+},
+{
+	"title" : "",
+	"range" : "",
+	"thumbnail" : "",
+	"original" : "",
+	"large" : "",
+	"details" : ""
+},
+{
+	"title" : "",
+	"range" : "",
+	"thumbnail" : "",
+	"original" : "",
+	"large" : "",
+	"details" : ""
+},
+{
+	"title" : "",
+	"range" : "",
+	"thumbnail" : "",
+	"original" : "",
+	"large" : "",
+	"details" : ""
+},
+{
+	"title" : "",
+	"range" : "",
+	"thumbnail" : "",
+	"original" : "",
+	"large" : "",
+	"details" : ""
+},
+{
+	"title" : "",
+	"range" : "",
+	"thumbnail" : "",
+	"original" : "",
+	"large" : "",
+	"details" : ""
+},
+{
+	"title" : "",
+	"range" : "",
+	"thumbnail" : "",
+	"original" : "",
+	"large" : "",
+	"details" : ""
+},
+{
+	"title" : "",
+	"range" : "",
+	"thumbnail" : "",
+	"original" : "",
+	"large" : "",
+	"details" : ""
+},
+{
+	"title" : "",
+	"range" : "",
+	"thumbnail" : "",
+	"original" : "",
+	"large" : "",
+	"details" : ""
+},
+{
+	"title" : "",
+	"range" : "",
+	"thumbnail" : "",
+	"original" : "",
+	"large" : "",
+	"details" : ""
+},
+{
+	"title" : "",
+	"range" : "",
+	"thumbnail" : "",
+	"original" : "",
+	"large" : "",
+	"details" : ""
+},
+{
+	"title" : "",
+	"range" : "",
+	"thumbnail" : "",
+	"original" : "",
+	"large" : "",
+	"details" : ""
+},
+{
+	"title" : "",
+	"range" : "",
+	"thumbnail" : "",
+	"original" : "",
+	"large" : "",
+	"details" : ""
+},
+{
+	"title" : "",
+	"range" : "",
+	"thumbnail" : "",
+	"original" : "",
+	"large" : "",
+	"details" : ""
+},
+{
+	"title" : "",
+	"range" : "",
+	"thumbnail" : "",
+	"original" : "",
+	"large" : "",
+	"details" : ""
+},
+{
+	"title" : "",
+	"range" : "",
+	"thumbnail" : "",
+	"original" : "",
+	"large" : "",
+	"details" : ""
+},
+{
+	"title" : "",
+	"range" : "",
+	"thumbnail" : "",
+	"original" : "",
+	"large" : "",
+	"details" : ""
+}
+];
+(function() {		
 
-$(".category-nav > li > a").on('click', function(e) {
+	$(document).ready(function() {
 
-	e.preventDefault();
+		var galleryList = $("ul.gallery-list"),			
+			imgs = galleryList.find(".gallery-thumbnail"),
+			wrap = $('div.image-outer-wrap'),
+			$targetSrc = $(".frame");
 
-	var $this = $(this),
-		galleryList = $("ul.gallery-list"),
-		catselected = $this.attr("href"),
-		imgs = galleryList.find(".gallery-thumbnail");
+		var loader = $('<div class="loading"></div>');
 
-	if ($this.hasClass("on")) {return false;}
+		var emptyLoader = function() {
+			$(".loading").remove();
+		};
+
+		// color borders
+		var removeBorder = function(){
+			imgs.removeClass("cat1 cat2 cat3 cat4 cat5");		
+		};
+
+		var addBorder = function(catselected) {
+
+			switch ( catselected ) {
+					
+				case "cat1":
+					removeBorder();
+					imgs.addClass(catselected);				
+					break;
+
+				case "cat2":
+					removeBorder();
+					imgs.addClass(catselected);				
+					break;
+
+				case "cat3":
+					removeBorder();
+					imgs.addClass(catselected);				
+					break;	
 
 
-	$(".category-nav > li > a").removeClass("on");
-	$this.addClass("on");
+				case "cat4":
+					removeBorder();
+					imgs.addClass(catselected);				
+					break;
+
+				case "cat5":
+					removeBorder();
+			     	imgs.addClass(catselected);		     	
+					break;				
+				}
+		};
 
 
-	galleryList.find("li").hide();
 
+		function upDateTheList (e) {
 
-	// color borders
-	var removeBorder = function(){
-		imgs.removeClass("cat1 cat2 cat3 cat4 cat5");		
-	};
+			e.preventDefault();
 
-	var addBorder = function() {
-
-		switch ( catselected ) {
+			var $this = $(this),
+				catselected = $this.attr("href");
 				
-			case "cat1":
-				removeBorder();
-				imgs.addClass(catselected);				
-				break;
+			if ($this.hasClass("on")) {return false;}
 
-			case "cat2":
-				removeBorder();
-				imgs.addClass(catselected);				
-				break;
+			$(".category-nav > li > a").removeClass("on");
+			$this.addClass("on");
 
-			case "cat3":
-				removeBorder();
-				imgs.addClass(catselected);				
-				break;	
+			galleryList.find("li").hide();
+			
+			addBorder(catselected);
 
+			var upDatedList = galleryList.find('.' + catselected);
 
-			case "cat4":
-				removeBorder();
-				imgs.addClass(catselected);				
-				break;
+			upDatedList.fadeIn();
 
-			case "cat5":
-				removeBorder();
-		     	imgs.addClass(catselected);		     	
-				break;				
-			}
-	};
-
-	addBorder();
+			
 
 
+		 	if ($('body').hasClass('lg-screen')) {
 
+				// get the first thumb in the list and load data-lg into frame 
+				var firstImg = upDatedList.find('img').first(),
+					firstImgAttr = firstImg.attr("data-lg");
 
-	var upDatedList = galleryList.find('.' + catselected);
+				upDatedList.find('img').removeClass('active');
+		 		firstImg.addClass('active');
 
-	upDatedList.fadeIn();
+				// // LOADER DIV
+				emptyLoader();
+				var loader = $('<div class="loading"></div>');
+				$(loader).prependTo( wrap ).fadeIn("fast");
 
-
-
-	// get the first thumb in the list and load data-lg into frame 
-	var firstImg = upDatedList.find('img').first(),
-
-		firstImgAttr = firstImg.attr("data-lg"),
-	
-	 	wrap = $('div.image-outer-wrap');
-
-
- 	upDatedList.find('img').removeClass('active');
- 	firstImg.addClass('active');
-
-
-	// clear previous .loader divs
-	var emptyLoader = function() {
-		$(".loading").remove();
-	};	
-	emptyLoader();
-
-	// create loading div
-	var loader = $('<div class="loading"></div>');
-
-	//load in div.loading
-	$(loader).prependTo( wrap ).fadeIn("fast");
-	
-	//hide existing image
-	var imgWrap = wrap.find(".imgWrap");
-
-	imgWrap.hide();
-
-
-
-	// load new image into frame
-	$targetSrc = $(".frame");
-
-	var img = $targetSrc.attr('src', firstImgAttr ).load( function() {
-
-		imgWrap.append(img).fadeIn("fast", function() {
-			$(loader).fadeOut("fast");
-		});
 		
+
+				// //hide existing image
+				var imgWrap = wrap.find(".imgWrap");
+				imgWrap.hide();
+
+
+				// load new image into frame					
+				var img = $targetSrc.attr('src', firstImgAttr ).load( function() {
+
+					imgWrap.append(img).fadeIn("fast", function() {
+						$(loader).fadeOut("fast");
+					});
+					
+				});
+
+				// 	//load infoBox
+				var metaData = firstImg.next(".gallery-item-info");
+				metaData = metaData.clone();
+				var destination = $(".infoBox");
+				destination.empty();
+				metaData.appendTo(destination);
+
+			}
+
+		}
+
+
+
+		$(".category-nav > li > a").on('click', upDateTheList);
+
+
 	});
 
 
-	if ($("body").hasClass("lg-screen")) {
-		//load infoBox
-		var metaData = firstImg.next(".gallery-item-info");
-		metaData = metaData.clone();
-		var destination = $(".infoBox");
-		destination.empty();
-		metaData.appendTo(destination);
-	}
-	
-});
-
-
-
-
-
-
-
-
+})();
 
 
 
@@ -180,11 +531,24 @@ $(document).checkConditions();
 $(document).ready(function() {	
 
 
-	var wrap = $('div.wrap'),
-		loader = $('<div class="loading"></div>');
+	var wrap = $('.image-outer-wrap'),
+		loader = $('<div class="loading"></div>'),
+		thumbnails = $('.gallery-thumbnail');
+
+    var media_query = window.matchMedia("(min-width: 800px)");
+    media_query.addListener(thumbClick);
+    thumbClick(media_query);
+
+    function thumbClick(media_query) {
+      if (media_query.matches) {
+        $( thumbnails ).on( "click", loadMainImg );
+      } else {
+         $( thumbnails ).off( "click", loadMainImg );      
+      }
+    }  
 
 
-	$('.lg-screen .gallery-thumbnail').on('click', function() {
+    function loadMainImg (argument) {
 
 		var $this = $(this),
 		 	largeImgSrc = $this.attr('data-lg'),
@@ -196,7 +560,7 @@ $(document).ready(function() {
 
 		$(loader).prependTo( wrap ).fadeIn("fast");			
 
-		$(".lg-screen .gallery-thumbnail").removeClass("active");
+		thumbnails.removeClass("active");
 
 		$this.addClass("active");
 
@@ -220,7 +584,11 @@ $(document).ready(function() {
 		destination.empty();
 		metaData.appendTo(destination);
 
-	});
+      	
+  }  
+
+
+	
 
 
 });
@@ -288,7 +656,7 @@ catclick.js
 
 			var firstgalleryitem = function() {
 
-			var metaData = $("div.gallery-item-info").first(),
+			var metaData = $(".gallery-item-info").first(),
 				destination = $(".infoBox");
 				metaData = metaData.clone();		
 				destination.empty();
@@ -307,7 +675,11 @@ catclick.js
 	 	// toggle details on mobile
 		$(".details-btn").on('click', function(e) {
 			e.preventDefault();
-			$(this).prev().toggleClass("on");
+			$(this)
+				.toggleClass('clicked')
+					.prev()
+						.find('.gallery-item-info')
+							.toggleClass("on");
 		});
 
 

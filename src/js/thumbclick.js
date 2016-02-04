@@ -1,11 +1,24 @@
 $(document).ready(function() {	
 
 
-	var wrap = $('div.wrap'),
-		loader = $('<div class="loading"></div>');
+	var wrap = $('.image-outer-wrap'),
+		loader = $('<div class="loading"></div>'),
+		thumbnails = $('.gallery-thumbnail');
+
+    var media_query = window.matchMedia("(min-width: 800px)");
+    media_query.addListener(thumbClick);
+    thumbClick(media_query);
+
+    function thumbClick(media_query) {
+      if (media_query.matches) {
+        $( thumbnails ).on( "click", loadMainImg );
+      } else {
+         $( thumbnails ).off( "click", loadMainImg );      
+      }
+    }  
 
 
-	$('.lg-screen .gallery-thumbnail').on('click', function() {
+    function loadMainImg (argument) {
 
 		var $this = $(this),
 		 	largeImgSrc = $this.attr('data-lg'),
@@ -17,7 +30,7 @@ $(document).ready(function() {
 
 		$(loader).prependTo( wrap ).fadeIn("fast");			
 
-		$(".lg-screen .gallery-thumbnail").removeClass("active");
+		thumbnails.removeClass("active");
 
 		$this.addClass("active");
 
@@ -41,7 +54,11 @@ $(document).ready(function() {
 		destination.empty();
 		metaData.appendTo(destination);
 
-	});
+      	
+  }  
+
+
+	
 
 
 });

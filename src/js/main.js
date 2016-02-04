@@ -61,7 +61,7 @@ catclick.js
 
 			var firstgalleryitem = function() {
 
-			var metaData = $("div.gallery-item-info").first(),
+			var metaData = $(".gallery-item-info").first(),
 				destination = $(".infoBox");
 				metaData = metaData.clone();		
 				destination.empty();
@@ -80,7 +80,11 @@ catclick.js
 	 	// toggle details on mobile
 		$(".details-btn").on('click', function(e) {
 			e.preventDefault();
-			$(this).prev().toggleClass("on");
+			$(this)
+				.toggleClass('clicked')
+					.prev()
+						.find('.gallery-item-info')
+							.toggleClass("on");
 		});
 
 

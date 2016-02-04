@@ -9,26 +9,47 @@
 	text-transform:uppercase;
 	color:#FFF;
 	border-radius: 8px;
+
 }
 
 .cat1 .details-btn {
 	background-color: $linkCat1;
 
+	&.clicked {
+		background-color: darken($linkCat1, 25);	
+	}
+
 }
 .cat2 .details-btn {
 	background-color: $linkCat2;
+
+	&.clicked {
+		background-color: darken($linkCat2, 25);	
+	}
 	
 }
 .cat3 .details-btn {
 	background-color: $linkCat3;
+
+	&.clicked {
+		background-color: darken($linkCat3, 25);	
+	}
 	
 }
 .cat4 .details-btn {
 	background-color: $linkCat4;
+
+	&.clicked {
+		background-color: darken($linkCat4, 25);	
+	}
 	
 }
 .cat5 .details-btn {
-	background-color: $linkCat5;	
+	background-color: $linkCat5;
+
+	&.clicked {
+		background-color: darken($linkCat5, 25);	
+	}	
 }
 
 

@@ -22,18 +22,14 @@
 
                 </div>
                     
-                
-                
-                
-
+            
             </div>
 
         </div><!-- .gallery-item-info -->
 
-        <a href="#" class="details-btn">info</a>
-
-
     </div><!-- .gallery-item-wrapper -->
+
+     <a href="#" class="details-btn">info</a>
 </li>
 
 
@@ -74,10 +70,9 @@
 
         </div><!-- .gallery-item-info -->
 
-        <a href="#" class="details-btn">info</a>
-
-
     </div><!-- .gallery-item-wrapper -->
+
+     <a href="#" class="details-btn">info</a>
 </li>
 
 
@@ -106,18 +101,14 @@
 
                 </div>
                     
-                
-                
-                
 
             </div>
 
         </div><!-- .gallery-item-info -->
 
-        <a href="#" class="details-btn">info</a>
-
-
     </div><!-- .gallery-item-wrapper -->
+
+     <a href="#" class="details-btn">info</a>
 </li>
 
 
@@ -149,19 +140,17 @@
                         90 Pence a Card ( Unit of 6 per Title )
 
                 </div>
-                    
-                
-                
-                
+                       
 
             </div>
 
         </div><!-- .gallery-item-info -->
 
-        <a href="#" class="details-btn">info</a>
-
 
     </div><!-- .gallery-item-wrapper -->
+
+     <a href="#" class="details-btn">info</a>
+
 </li>
 
 
@@ -192,18 +181,13 @@
 
                 </div>
                     
-                
-                
-                
-
             </div>
 
         </div><!-- .gallery-item-info -->
 
-        <a href="#" class="details-btn">info</a>
-
-
     </div><!-- .gallery-item-wrapper -->
+
+     <a href="#" class="details-btn">info</a>
 </li>
 
 
@@ -236,18 +220,13 @@
 
                 </div>
                     
-                
-                
-                
-
             </div>
 
         </div><!-- .gallery-item-info -->
 
-        <a href="#" class="details-btn">info</a>
-
-
     </div><!-- .gallery-item-wrapper -->
+
+     <a href="#" class="details-btn">info</a>
 </li>
 
 
@@ -287,18 +266,13 @@
 
                 </div>
                     
-                
-                
-                
-
             </div>
 
         </div><!-- .gallery-item-info -->
 
-        <a href="#" class="details-btn">info</a>
-
-
     </div><!-- .gallery-item-wrapper -->
+
+     <a href="#" class="details-btn">info</a>
 </li>
 
 
@@ -325,15 +299,9 @@
                        
                 </div>
                     
-                
-                
-                
-
             </div>
 
         </div><!-- .gallery-item-info -->
-
-        
 
 
     </div><!-- .gallery-item-wrapper -->

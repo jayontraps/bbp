@@ -33,25 +33,22 @@
 
         </div><!-- .gallery-item-info -->
 
-        <a href="#" class="details-btn">info</a>
-
-    
-
-
     </div><!-- .gallery-item-wrapper -->
+
+    <a href="#" class="details-btn">info</a>
+    
 </li>
 
 
 
 
+
+
 <li class="gallery-item cat1">
-    <div class="gallery-item-wrapper">
 
-        
+    <div class="gallery-item-wrapper">        
 
-        <img src="images/dot.gif" class="gallery-thumbnail lazy cat1" data-thumb="images/gallery/cat1/TB102thumb.jpg" data-original="images/gallery/mobile/TB102.jpg" data-lg="images/gallery/cat1/TB102.jpg"  />
-
-         
+        <img src="images/dot.gif" class="gallery-thumbnail lazy cat1" data-thumb="images/gallery/cat1/TB102thumb.jpg" data-original="images/gallery/mobile/TB102.jpg" data-lg="images/gallery/cat1/TB102.jpg"  />         
 
         <div class="gallery-item-info"> 
 
@@ -75,11 +72,10 @@
 
         </div><!-- .gallery-item-info -->
 
-        <a href="#" class="details-btn">info</a>
-
-   
 
     </div><!-- .gallery-item-wrapper -->
+
+    <a href="#" class="details-btn">info</a>
 </li>
 
 
@@ -113,12 +109,12 @@
             </div>
 
 
-        </div><!-- .gallery-item-info -->
-
-        <a href="#" class="details-btn">info</a>
+        </div><!-- .gallery-item-info -->       
 
 
     </div><!-- .gallery-item-wrapper -->
+
+     <a href="#" class="details-btn">info</a>
 </li>
 
 
@@ -152,11 +148,11 @@
             </div>
 
         </div><!-- .gallery-item-info -->
-
-        <a href="#" class="details-btn">info</a>
-
+        
 
     </div><!-- .gallery-item-wrapper -->
+
+    <a href="#" class="details-btn">info</a>
 </li>
 
 
@@ -191,10 +187,10 @@
 
         </div><!-- .gallery-item-info -->
 
-        <a href="#" class="details-btn">info</a>
-
 
     </div><!-- .gallery-item-wrapper -->
+
+     <a href="#" class="details-btn">info</a>
 </li>
 
 
@@ -229,10 +225,9 @@
 
         </div><!-- .gallery-item-info -->
 
-        <a href="#" class="details-btn">info</a>
-
-
     </div><!-- .gallery-item-wrapper -->
+
+     <a href="#" class="details-btn">info</a>
 </li>
 
 
@@ -267,10 +262,9 @@
 
         </div><!-- .gallery-item-info -->
 
-        <a href="#" class="details-btn">info</a>
-
-
     </div><!-- .gallery-item-wrapper -->
+
+     <a href="#" class="details-btn">info</a>
 </li>
 
 

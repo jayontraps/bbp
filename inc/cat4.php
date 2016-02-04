@@ -29,9 +29,8 @@
 
         </div><!-- .gallery-item-info -->
 
-        <a href="#" class="details-btn">info</a>
-
     </div><!-- .gallery-item-wrapper -->
+     <a href="#" class="details-btn">info</a>
 
 </li>
 
@@ -71,10 +70,9 @@
 
         </div><!-- .gallery-item-info -->
 
-        <a href="#" class="details-btn">info</a>
-
-
     </div><!-- .gallery-item-wrapper -->
+
+     <a href="#" class="details-btn">info</a>
 </li>
 
 
@@ -111,10 +109,9 @@
 
         </div><!-- .gallery-item-info -->
 
-        <a href="#" class="details-btn">info</a>
-
-
     </div><!-- .gallery-item-wrapper -->
+
+     <a href="#" class="details-btn">info</a>
 </li>
 
 
@@ -153,10 +150,9 @@
 
         </div><!-- .gallery-item-info -->
 
-        <a href="#" class="details-btn">info</a>
-
-
     </div><!-- .gallery-item-wrapper -->
+
+     <a href="#" class="details-btn">info</a>
 </li>
 
 
@@ -194,10 +190,9 @@
 
         </div><!-- .gallery-item-info -->
 
-        <a href="#" class="details-btn">info</a>
-
-
     </div><!-- .gallery-item-wrapper -->
+
+     <a href="#" class="details-btn">info</a>
 </li>
 
 
@@ -236,10 +231,9 @@
 
         </div><!-- .gallery-item-info -->
 
-        <a href="#" class="details-btn">info</a>
-
-
     </div><!-- .gallery-item-wrapper -->
+
+     <a href="#" class="details-btn">info</a>
 </li>
 
 
@@ -278,10 +272,9 @@
 
         </div><!-- .gallery-item-info -->
 
-        <a href="#" class="details-btn">info</a>
-
-
     </div><!-- .gallery-item-wrapper -->
+
+     <a href="#" class="details-btn">info</a>
 </li>
 
 

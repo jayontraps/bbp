@@ -1,11 +1,14 @@
 .image-outer-wrap {			
-	position:relative;		
+	position:relative;	
+	overflow: auto;	
 }
 
 
 
 .imgWrap {		
 	.frame {
+		display: block;
+		float: right;
 		border:2px solid #fff;
 	}
 }
@@ -17,8 +20,8 @@
 	position:absolute;
 	top:0;
 	left:0;
-	width:100%;
-	height:300px;
+	bottom: 0;
+	right: 0;
 	background: url(../../images/ajax-loader.gif) 50% 50% no-repeat transparent;
 	z-index:9;
 }

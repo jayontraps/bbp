@@ -4,7 +4,7 @@
 
 	@include breakpoint(js_breakpoint) {
 
-		width:400px;
+		width:35%;
 		float:left;
 
 	}
@@ -20,7 +20,7 @@
 	@include breakpoint(js_breakpoint) {
 
 		display:block;
-		width:624px;
+		width:60%;
 		min-height:624px;
 		float:right;	
 	}	
