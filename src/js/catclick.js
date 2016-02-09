@@ -13,43 +13,6 @@
 			$(".loading").remove();
 		};
 
-		// color borders
-		var removeBorder = function(){
-			imgs.removeClass("cat1 cat2 cat3 cat4 cat5");		
-		};
-
-		var addBorder = function(catselected) {
-
-			switch ( catselected ) {
-					
-				case "cat1":
-					removeBorder();
-					imgs.addClass(catselected);				
-					break;
-
-				case "cat2":
-					removeBorder();
-					imgs.addClass(catselected);				
-					break;
-
-				case "cat3":
-					removeBorder();
-					imgs.addClass(catselected);				
-					break;	
-
-
-				case "cat4":
-					removeBorder();
-					imgs.addClass(catselected);				
-					break;
-
-				case "cat5":
-					removeBorder();
-			     	imgs.addClass(catselected);		     	
-					break;				
-				}
-		};
-
 
 
 		function upDateTheList (e) {
@@ -66,7 +29,7 @@
 
 			galleryList.find("li").hide();
 			
-			addBorder(catselected);
+			// addBorder(catselected);
 
 			var upDatedList = galleryList.find('.' + catselected);
 

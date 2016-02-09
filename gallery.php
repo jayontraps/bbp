@@ -42,10 +42,10 @@ include "inc/head.php"
 
   <div class="col-2">
 
-      <div class="image-outer-wrap">
+      <div class="image-outer-wrap" id="js_img_wrapper">
 
           <div class="imgWrap">
-              <img src="images/gallery/cat1/TB101.jpg" class="frame cat1" />
+              <img src="images/gallery/cat1/TB101.jpg" id="js_frame" class="cat1 frame" />
           </div>
 
       </div>

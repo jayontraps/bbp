@@ -1,6 +1,5 @@
 $(document).ready(function() {	
 
-
 	var wrap = $('.image-outer-wrap'),
 		loader = $('<div class="loading"></div>'),
 		thumbnails = $('.gallery-thumbnail');
@@ -53,12 +52,7 @@ $(document).ready(function() {
 		var destination = $(".infoBox");
 		destination.empty();
 		metaData.appendTo(destination);
-
       	
   }  
-
-
-	
-
 
 });

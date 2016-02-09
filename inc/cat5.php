@@ -165,7 +165,7 @@
 
             <div class="gallery-item-metainfo">
 
-                <div>TB505  'Eerie'</div>
+                <div>TB505  'Organ Grinder'</div>
                 <div class="gallery-item-meta-details">
                 
                         Printed on 280gsm FSC approved paper stock<br>
@@ -240,7 +240,7 @@
 
             <div class="gallery-item-metainfo">
 
-                <div>TB507  'Shutdown'</div>
+                <div>TB507  'Fart'</div>
                 <div class="gallery-item-meta-details">
                 
                         Printed on 280gsm FSC approved paper stock<br>
